@@ -1,0 +1,6 @@
+{
+	"output_data_folder"             : "./output_data/",
+	"current_marketplace"            : "com",
+	"input_urls_file"                : "input_data/urls_to_scrape.csv",
+	"page_limit"                     :  50
+}
