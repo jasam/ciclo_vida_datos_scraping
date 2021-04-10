@@ -1,3 +1,16 @@
+#
+# Licensed using a creative Commons Attribution-ShareAlike
+#
+#    https://creativecommons.org/licenses/by-sa/3.0/deed.es
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# Coding was created trying to use PIP 8 Style guide for Python (https://www.python.org/dev/peps/pep-0008/)
+
 from helper_class import *
 
 
@@ -37,6 +50,11 @@ class INTERFACING():
 
         return valid_page
 
+    # Important method 
+    # By default, we use data center proxies to scrape the data from the web. But on some websites that could be difficult to scrape it
+    # To use premium proxies is a solution. Premium proxies use residential IP addresses so they evade detection as data center addresses.
+    # It's possible to change residential country in the parameter: country.
+    
     def get_url_response(self, url,premium_proxies):
 
         print("Getting HTML Response of: ",url)

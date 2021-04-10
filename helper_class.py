@@ -1,3 +1,17 @@
+#
+# Licensed using a creative Commons Attribution-ShareAlike
+#
+#    https://creativecommons.org/licenses/by-sa/3.0/deed.es
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+# Helper class used to assist in providing some functionality (delegation pattern).
+# Coding was created trying to use PIP 8 Style guide for Python (https://www.python.org/dev/peps/pep-0008/)
 import json,os,re,requests,sys,random,csv,time
 from bs4 import BeautifulSoup
 

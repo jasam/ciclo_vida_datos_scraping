@@ -1,6 +1,22 @@
+#
+# Licensed using a creative Commons Attribution-ShareAlike
+#
+#    https://creativecommons.org/licenses/by-sa/3.0/deed.es
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+# Starting point of the solution here scraping is done.
+# Coding was created trying to use PIP 8 Style guide for Python (https://www.python.org/dev/peps/pep-0008/)
+
 from interface_class import *
 from helper_class import *
 
+# Main class 
 class AMAZONCLASS():
 
     def __init__(self):
